@@ -1,5 +1,3 @@
 # predictive-analysis
 
-bruno
-
-This are my changes
+Data: [kaggle competition](https://www.kaggle.com/competitions/feedback-prize-effectiveness/data)
