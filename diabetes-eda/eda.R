@@ -7,12 +7,11 @@ head(df)
 
 # df <- sample_n(df, 1000)
 
+# check nulls
+colSums(is.na(df))
+
 # dropping nas
 df <- na.omit(df)
-dim(df)
-
-# check nulls
-sapply(df, function(x) sum(is.na(x)))
 
 tgt = "readmitted"
 
